@@ -281,3 +281,10 @@ body {
     color: #ee5487;
     font-size: 3rem;
 }
+.loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
