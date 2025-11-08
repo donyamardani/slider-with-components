@@ -29,9 +29,9 @@ export default function Slider() {
        
         <div class="wrapper">
 
-          <Arrow/>
-          <Card/>
-          <Arrow/>
+          <Arrow handleCurent={prevCurent} position={'prev'}/>
+          <Card hero={heros[curentHeros]}/>
+          <Arrow  handleCurent={nextCurent} position={'next'}/>
 
         </div>
      </div>

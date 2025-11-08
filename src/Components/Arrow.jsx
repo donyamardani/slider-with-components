@@ -1,12 +1,12 @@
 import React from 'react'
 
-export default function Arrow() {
+export default function Arrow({handleCurent,position}) {
   return (
    
-            <div class="arrow-wrapper">
-                <div class="round">
+            <div className="arrow-wrapper"  onClick={handleCurent}>
+                <div className="round">
                     <div id="cta">
-                        <span class="arrow prev"></span>
+                        <span className ={`arrow ${position}`}></span>
                     </div>
                 </div>
             </div>
